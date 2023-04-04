@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form>
+            <label for="fname">First name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="fname">Last name:</label>
+            <input type="text" id="lname" name="lname" required><br>
+            <label for="pwd">Enter password:</label>
+            <input type="password" id="pwd" name="pwd" required><br><br>
+            
+            <label for="add">Enter your address:</label>
+            <br>
+            <textarea id="add" name="add" rows="5" cols="30">
+            </textarea><br>
+            <span>What toppings would you like?</span>
+            <br>
+            <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+            <label for="lettuce">Lettuce</label>
+            <input type="checkbox" name="topping" id="tomato" value="tomato">
+            <label for="tomato">Tomato</label>
+            <input type="checkbox" name="topping" id="onion" value="onion">
+            <label for="onion">Onion</label><br>
+
+            <span>Would you like to add cheese?</span>
+          <br>
+	        <!--Add your first radio button below-->
+<input type="radio" id="yes" name="cheese" value="yes">
+          <label for="yes">Yes</label>
+	        <!--Add your second radio button below-->
+<input type="radio" id="no" name="cheese" value="no">
+          <label for="no">No</label><br>
+  <input type="reset" value="Reset">
+  <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
